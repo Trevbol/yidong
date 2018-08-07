@@ -1,0 +1,104 @@
+@import url('base.css');
+.big{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #eeeeee;
+}
+.Headportrait{
+	width: 3.42rem;
+	height: 3.42rem;
+/* 	background: #742135; */
+	margin: 1.61rem auto 0;
+}
+.Headportrait img{
+	width: 3.42rem;
+	height: 3.42rem;
+}
+.no1{
+	height: 0.58rem;
+	margin: 0 auto;
+	font-size: 0.26rem;
+	color: #33cf56;
+	text-align: center;
+	font-family: "苹方";
+	font-weight: bold;
+	line-height: 0.58rem;
+}
+.no2{
+	height: 0.4rem;
+	margin: 0 auto;
+	font-size: 0.2rem;
+	color: #ababab;
+	text-align: center;
+	font-family: "苹方";
+	font-weight: bold;
+	line-height: 0.4rem;
+}
+.Inputbox{
+	width: 5.3rem;
+	height: 0.53rem;
+	background: #eeeeee;
+	border-bottom: 0.01rem solid #d6d6d6;
+	margin: 2.33rem auto 0;
+}
+.Inputbox_left{
+	float: left;
+	width: 0.18rem;
+	height: 0.08rem;
+	background: #ffcb2e;
+	margin-top: 0.14rem;
+}
+.Inputbox_center{
+	width: 4.32rem;
+	height: 0.43rem;
+	background: brown;
+	float: left;
+	margin-left: 0.10rem;
+	background: #eeeeee;
+}
+.Inputbox_center input{
+	width: 4.32rem;
+	height: 0.43rem;
+	outline: none;
+	display: block;
+	padding-left: 0.14rem;
+	font-weight: bold;
+	font-size: 0.17rem;
+	background: #eeeeee;
+}
+.Inputbox_right{
+	width: 0.17rem;
+	height: 0.17rem;
+	font-size: 0.17rem;
+	float: right;
+/* 	background: blue; */
+	margin-right: 0.53rem;
+	margin-top: 0.10rem;
+	font-size: 0.17rem;
+	line-height: 0.17rem;
+}
+.Button{
+	width: 3.47rem;
+	height: 0.7rem;
+	margin: 0 auto;
+	background-image: -webkit-linear-gradient(left,#3e9dff,#41c3ff);
+	border-radius: 0.35rem;
+	text-align: center;
+	line-height: 0.7rem;
+	font-size: 0.22rem;
+	color: #f9fbfa;
+	font-weight: bold;
+	box-shadow:0rem 0.09rem 3.0px 1.2px rgba(63,172,255,0.4)
+}
+.tiaozhuan{
+	display: block;
+	width: 3.47rem;
+	height: 0.7rem;
+	margin: 0 auto;
+	background: yellow;
+	border-radius: 0.35rem;
+	margin-top: 1.51rem;
+}

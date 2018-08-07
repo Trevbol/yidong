@@ -2,7 +2,7 @@
 
 .identify-interface{
     position: absolute;
-    background:#fdfcfc;
+    background:#eeeeee;
     left:0;
     right: 0;
     top:0;
@@ -35,7 +35,7 @@
     width: 5.32rem;
     height: 0.63rem;
     margin: 1.46rem auto;
-    border-bottom: 2px solid #eeeded;
+    border-bottom: 2px solid #e2e2e2;
 }
 .sign{
     width:0.18rem;
@@ -52,6 +52,7 @@
     border:0;
     outline: none;
     float: left;
+    background: #eeeeee;
 }
 .clearbox{
     width:0.1rem;
@@ -62,13 +63,15 @@
     margin:0.3rem 0.2rem 0 0;
 }
 .start-identify{
-    width:4.68rem;
+    width:3.47rem;
     height:0.7rem;
     font-size: 0.24rem;
     border: none;
     color:#bebebe;
-    background:#f0efef;
+    background:#d6d6d6;
     margin: 2.25rem auto 0;
     border-radius: 0.35rem;
     display: block;
+    text-align: center;
+    line-height: 0.7rem;
 }

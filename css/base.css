@@ -4,10 +4,15 @@
     list-style: none;
     font-family: "微软雅黑";
     font-size:0.16rem;
+
 }
 a{
     text-decoration: none;
 }
 img{
     border: none;
+}
+input{
+	outline: none;
+	border: none;
 }

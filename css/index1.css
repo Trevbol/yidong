@@ -1,0 +1,154 @@
+@import url('base.css');
+.big{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #eeeeee;
+}
+.Headportrait{
+	width: 3.42rem;
+	height: 3.42rem;
+/* 	background: #742135; */
+	margin: 1.61rem auto 0;
+	position: relative;
+}
+.Headportrait img{
+	width: 3.42rem;
+	height: 3.42rem;
+}
+.no1{
+	height: 0.58rem;
+	margin: 0 auto;
+	font-size: 0.26rem;
+	color: #33cf56;
+	text-align: center;
+	font-family: "苹方";
+	font-weight: bold;
+	line-height: 0.58rem;
+}
+.no2{
+	height: 0.4rem;
+	margin: 0 auto;
+	font-size: 0.2rem;
+	color: #ababab;
+	text-align: center;
+	font-family: "苹方";
+	font-weight: bold;
+	line-height: 0.4rem;
+}
+.Inputbox{
+	width: 5.3rem;
+	height: 0.53rem;
+	background: #eeeeee;
+	border-bottom: 0.01rem solid #d6d6d6;
+	margin: 2.33rem auto 0;
+}
+.Inputbox_left{
+	float: left;
+	width: 0.18rem;
+	height: 0.08rem;
+	background: #ffcb2e;
+	margin-top: 0.14rem;
+}
+.Inputbox_center{
+	width: 4.32rem;
+	height: 0.43rem;
+	background: brown;
+	float: left;
+	margin-left: 0.10rem;
+	background: #eeeeee;
+}
+.Inputbox_center input{
+	width: 4.32rem;
+	height: 0.43rem;
+	outline: none;
+	display: block;
+	padding-left: 0.14rem;
+	font-weight: bold;
+	font-size: 0.17rem;
+	background: #eeeeee;
+}
+.Inputbox_right{
+	width: 0.17rem;
+	height: 0.17rem;
+	font-size: 0.17rem;
+	float: right;
+/* 	background: blue; */
+	margin-right: 0.53rem;
+	margin-top: 0.10rem;
+	font-size: 0.17rem;
+	line-height: 0.17rem;
+}
+.Button{
+	width: 3.47rem;
+	height: 0.7rem;
+	margin: 0 auto;
+	background: #d6d6d6;
+	border-radius: 0.35rem;
+	text-align: center;
+	line-height: 0.7rem;
+	font-size: 0.22rem;
+	color: #aaaaaa;
+	font-weight: bold;
+	margin-top: 1.51rem;
+	border-radius: 0.35rem;
+	display: block;
+}
+.animation_box1{
+	width: 2.22rem;
+	height: 2.22rem;
+	background: #dcf0e7;
+	position: absolute;
+	left: 0.55rem;
+	top: 0;
+	border-radius: 50%;		
+}
+.animation_box2{
+	width: 2.22rem;
+	height: 2.22rem;
+	animation: box2 1.5s 1s linear infinite ;
+	background: #e4efea;
+	position: absolute;
+	left: 0.55rem;
+	top: 0;
+	border-radius: 50%;		
+}
+.animation_box3{
+	width: 2.22rem;
+	height: 2.22rem;
+	background: #e9efec;
+	position: absolute;
+	left: 0.55rem;
+	top: 0;
+	animation: box3 1.5s 1s linear infinite;
+	border-radius: 50%;		
+}
+@keyframes box2{
+	0%{
+		transform:scale(1,1);
+	}
+	100%{
+		transform:scale(1.28,1.28);
+	}
+}
+@keyframes box3{
+	0%{
+		transform:scale(1,1);
+	}
+	100%{
+		transform:scale(1.53,1.53);
+	}
+}
+.character{
+	width: 1.44rem;
+	height: 1.44rem;
+	margin: 0 auto;
+/* 	background: blue; */
+	margin-top: 0.39rem;
+}
+.character img{
+	width: 1.44rem;
+	height: 1.44rem;	
+}
